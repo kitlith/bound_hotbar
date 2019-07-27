@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "bound_hotbar",
+  "version": "${version}",
+
+  "name": "Bound Hotbar",
+  "description": "Make the Curse of Binding affect hotbar slots!",
+  "authors": [
+    "Kitlith"
+  ],
+  "contact": {
+    "sources": "https://github.com/Kitlith/bound_hotbar"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/bound_hotbar/icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "bound_hotbar.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0"
+  }
+}

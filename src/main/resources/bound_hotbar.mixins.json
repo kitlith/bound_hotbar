@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "pw.kitl.bound_hotbar.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "SlotMixin",
+    "PlayerEntityMixin"
+  ],
+  "client": [
+    "ClientPlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
